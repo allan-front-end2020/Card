@@ -6,13 +6,24 @@
     border-radius: 15px;
     margin-top: 28px;
     box-shadow: 6px 13px 28px 1px #363636;
-    text-align: center;
+    text-align: center
 }
 
-.conteudo {
-    display: flex;
+.btn {
+    margin-top: 18px;
+    border: solid 1px;
+    width: -69px;
+    width: 200px;
 }
 
-mat-card-title {
-    text-align: center;
+.mat-card-header {
+    justify-content: center;
+}
+
+.mat-card-subtitle {
+    font-size: 40px;
+}
+
+.mat-form-field {
+    margin-right: 8px;
 }

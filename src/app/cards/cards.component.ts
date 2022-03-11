@@ -1,4 +1,7 @@
 import { Component, OnInit, Input } from '@angular/core';
+import { MatSnackBar } from '@angular/material/snack-bar';
+
+
 
 @Component({
   selector: 'app-cards',
@@ -25,6 +28,16 @@ export class CardsComponent{
   @Input()
   bg:string =''
 
+  constructor(
+    private snackBar: MatSnackBar
+  ){}
+  
+  openSnackBar(message: string){
+    this.snackBar.open(message)
+  }
+}
+
+
 
 
  
@@ -32,5 +45,3 @@ export class CardsComponent{
 
 
 
-
-}

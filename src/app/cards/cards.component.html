@@ -1,6 +1,6 @@
 <div class='conteudo'>
 
-    <mat-card class="example-card" [style]="'background-color:  ' +  bg +';'" >
+    <mat-card class="example-card" [style]="'background-color:  ' +  bg +';'">
         <mat-card-header>
             <mat-card-title>{{titulo}}</mat-card-title>
             <mat-card-subtitle>{{subtitulo}}</mat-card-subtitle>
@@ -12,15 +12,21 @@
             <p>{{conteudo1}}</p>
             <mat-divider inset></mat-divider>
 
+
             <mat-divider inset></mat-divider>
             <p>{{conteudo2}}</p>
             <mat-divider inset></mat-divider>
+
 
             <mat-divider inset></mat-divider>
             <p>{{conteudo3}}</p>
             <mat-divider inset></mat-divider>
 
+
+            <button mat-stroked-button (click)="openSnackBar('compra efetuada') class='btn ">Show snack-bar</button>
+
         </mat-card-content>
+
 
 
     </mat-card>
