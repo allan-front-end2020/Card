@@ -12,8 +12,8 @@
 .btn {
     margin-top: 18px;
     border: solid 1px;
-    width: -69px;
     width: 200px;
+    height: 40px;
 }
 
 .mat-card-header {
