@@ -1,0 +1,18 @@
+.example-card {
+    width: 200px;
+    height: 300px;
+    background-color: #F5F5F5;
+    border: solid black 1px;
+    border-radius: 15px;
+    margin-top: 28px;
+    box-shadow: 6px 13px 28px 1px #363636;
+    text-align: center;
+}
+
+.conteudo {
+    display: flex;
+}
+
+mat-card-title {
+    text-align: center;
+}
